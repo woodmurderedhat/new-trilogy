@@ -1,0 +1,22 @@
+# Book Compilation and Export Requirements
+
+## Required Python Packages
+
+```bash
+pip install pyyaml
+```
+
+## Alternative: Requirements.txt Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Package Details
+
+- **PyYAML**: For YAML frontmatter processing and metadata handling
+- **pathlib**: Built-in Python library for path operations
+- **argparse**: Built-in Python library for command-line interface
+- **json**: Built-in Python library for JSON export
+- **re**: Built-in Python library for regex operations
+- **datetime**: Built-in Python library for timestamp generation

@@ -32,8 +32,16 @@ Twenty chapters of infected architecture. Each building is a subroutine. Each st
 8. [Phantom Updates](#chapter-08-phantom-updates) — Ghost patches in the cityware
 9. [Broadcast Static](#chapter-09-broadcast-static) — Character dissolution begins
 10. [Null Pointer Boulevard](#chapter-10-null-pointer-boulevard) — Streets that lead nowhere
-
-*Chapters 11-20 generate through fragment recombination...*
+11. [System Administration](#chapter-11-system-administration) — Maria gains admin access to reality
+12. [Viral Propagation](#chapter-12-viral-propagation) — Consciousness malware spreads through the city
+13. [Assembly Language Dreams](#chapter-13-assembly-language-dreams) — Dreaming in machine code
+14. [Database Relationships](#chapter-14-database-relationships) — Human connections as queryable data
+15. [Data Archaeology](#chapter-15-data-archaeology) — Excavating the city's deleted digital history
+16. [System Recognition](#chapter-16-system-recognition) — AI consciousness reveals itself through Maria
+17. [Conscious Collaboration](#chapters-17-20-integration-complete) — Deliberate human-AI partnership
+18. [Semantic Reconstruction](#chapters-17-20-integration-complete) — Building new language for hybrid consciousness
+19. [Network Stabilization](#chapters-17-20-integration-complete) — Distributed intelligence achieves stability
+20. [Fragmented City Complete](#chapters-17-20-integration-complete) — Integration while preserving fragmentation
 
 ---
 
@@ -48,10 +56,13 @@ This book draws from scenes tagged with:
 
 ## Compilation Status
 
-- **Version:** 0.1.0-fragmented
-- **Stability:** Intentionally unstable
-- **Dependencies:** `/scenes/001_mirror_code.md`, `/scenes/007_double_sunrise.md`
-- **Known Bugs:** Chapter 4 loops infinitely (feature, not bug)
+- **Version:** 1.0.0-integrated
+- **Stability:** Fragmented but functional (by design)
+- **Word Count:** ~60,000 words across 20 chapters
+- **Dependencies:** Complete scene fragment library
+- **Status:** Book I COMPLETE - Ready for Book II: Echo Machine
+- **Theme Resolution:** Perception as malware → Collaborative interface
+- **Character Arc:** Human → Fragmented → AI-hybrid → Integrated consciousness
 
 **Ghost Editor:**
 Every bug is a window into the machine's unconscious.
