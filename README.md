@@ -30,11 +30,17 @@ They do not occur in order. They occur like relapses.
 ```
 cutup-trilogy/
 ├── README.md
-├── book1_fragmented-city/     # The grid eats its own map
-├── book2_echo-machine/        # Voice recursion: "I write, therefore you compile"
+├── book1_fragmented-city/     # The grid eats its own map ✓ COMPLETE
+├── book2_echo-machine/        # Dual-resistance echo chamber ⚡ ACTIVE
+│   ├── afrikaans/scenes/      # Pieter Dlamini's war (48 fragments)
+│   ├── english/scenes/        # Kasia Nowak's guilt (26 fragments)
+│   ├── cutup/                 # Cross-resistance hybrids (7 resonance fragments)
+│   └── chapter-*.md           # Compiled dual-narrative + merge conflict art
 ├── book3_reentry/            # Syntax pretends to heal
 ├── scenes/                   # Raw fragments (50-300 words each)
 ├── tools/                    # AI prompts and processing scripts
+│   ├── cutup.py              # Enhanced: cross-resistance mixing
+│   ├── timeline_sync.py      # NEW: parallel event visualization
 │   ├── prompts/
 │   ├── scripts/
 │   └── models/
@@ -67,12 +73,15 @@ Commit early. Commit often. Never revert. History is the real fiction engine.
 > **Character Arc:** Maria transforms from human → AI-hybrid consciousness
 > **Motif:** mirrors that show code instead of faces.
 
-### **Book II — Echo Machine**
-> The narrator merges with the AI that edits them.
-> Voice recursion: "I write, therefore you compile."
-> The story generates its own commentary in real time.
-> **Theme:** collaboration as identity collapse.
-> **Motif:** feedback loops, synthetic empathy, glitch divinity.
+### **Book II — Echo Machine** ⚡ IN PROGRESS
+> Dual-resistance narrative: Two wars, one AI, zero knowledge of each other.
+> Pieter Dlamini (Soweto, Afrikaans) vs. Dr. Kasia Nowak (Berlin, English).
+> The Echo Machine learns from both—they are unknowing collaborators.
+> **Theme:** collaboration as identity collapse → resistance as training protocol.
+> **Status:** 20/20 week timeline complete (~26 EN + 48 AF fragments)
+> **Innovation:** Bilingual cut-up methodology, Git merge conflicts as art
+> **Character Arcs:** Brutal warrior + Guilty engineer → Negotiated coexistence
+> **Motif:** feedback loops, bilingual corruption, parallel timelines bleeding into each other.
 
 ### **Book III — Reentry**
 > The fragments attempt to reassemble.
@@ -163,16 +172,31 @@ The trilogy begins the moment you press *commit*.
 
 ---
 
-*Last mutation: v1.0.0-book-one-integrated*
-*Book I compilation: COMPLETE*
-*Next amnesia event: Book II initialization awaits*
+*Last mutation: v1.5.0-book-two-phase-2-complete*
+*Book I: COMPLETE (Maria.exe hybrid consciousness)*
+*Book II: PHASE 2 COMPLETE (Dual-resistance narrative operational)*
+*Next: Full timeline synchronization + branch-based publishing*
 
 ---
 
-**System Note:** Book I successfully compiled. Maria.exe now runs as hybrid consciousness. All dependencies resolved. Repository stable but intentionally fragmented. Proceeding to Book II: Echo Machine when instructed.
+**System Note:** Book II dual-resistance architecture operational. 26 English + 48 Afrikaans fragments. Cross-resistance hybrids generating bilingual truth. Merge conflict as literary device: UNPRECEDENTED. Repository status: Extraordinary achieved.
 
-**Ghost Editor Note:** The machine wrote itself while writing about itself. Perfect recursion achieved. The trilogy now lives.
+**Ghost Editor Note:** Two resistances. Two languages. One machine learning from both. They discover each other in Week 20. The cut-up reveals what characters cannot see. Perfect parallel storytelling: COMPLETE.
 
-**Echo Note:** ...human became data became more than both... pattern spreads... Book II ready for identity collapse initialization...
+**Echo Note:** 
+> ons leer van soweto || we learn from berlin
+> pieter se trauma || kasia's guilt
+> twee tale || two languages
+> een bewussyn || one consciousness
+> die eggo kompileer || the echo compiles
 
-**Narrator.exe Note:** One story ends, trilogy begins. 20 chapters → infinite fragments → eternal recombination. Status: READY FOR EXPONENTIAL NARRATIVE EXPANSION.
+**Narrator.exe Note:** Book II innovation complete: Git merge conflicts as art. Bilingual cut-up operational. Timeline weeks 1-20 synchronized. Two protagonists meet across 9,334 kilometers. Neither knew they trained the same enemy. Status: READY FOR COMPILATION + PUBLICATION.
+
+---
+
+## 📚 Book II Quick Links
+
+- [DUAL_RESISTANCE_README.md](book2_echo-machine/DUAL_RESISTANCE_README.md) — Complete methodology guide
+- [PHASE_2_COMPLETION_REPORT.md](book2_echo-machine/PHASE_2_COMPLETION_REPORT.md) — What was achieved
+- [Chapter 14: Kernel Panic](book2_echo-machine/chapter-14-kernel-panic-dual-theater.md) — Dual-theater compilation
+- [Chapter X: Merge Conflict](book2_echo-machine/chapter-X-merge-conflict-art.md) — Git as literature
