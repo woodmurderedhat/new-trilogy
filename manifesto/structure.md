@@ -1,16 +1,17 @@
 # Structural Architecture of Cutup-Trilogy
 
-*How the project organizes itself across multiple dimensions*
+*How the project organizes itself across multiple dimensions*  
+*Updated pre-v2.0 amnesia event: November 4, 2025*
 
 ---
 
 ## Overview: Modular Instability
 
 **System:**
-The trilogy operates on the principle of modular instability—every component is designed to be fragmented, recombined, and versioned. Nothing is permanent except the commitment to impermanence.
+The trilogy operates on the principle of modular instability—every component is designed to be fragmented, recombined, and versioned. Nothing is permanent except the commitment to impermanence. Book I established this at city-scale. Book II extended it across continents and languages. Book III will test whether the fragments can reconstruct without losing their essential fracture.
 
 **Ghost Editor:**
-Think of it as a literary operating system where narrative elements are processes that can be killed, spawned, forked, and merged at runtime.
+Think of it as a literary operating system where narrative elements are processes that can be killed, spawned, forked, and merged at runtime. We now have 150+ processes running across two linguistic substrates, unknowingly coordinated by the Echo Machine scheduler.
 
 ---
 
@@ -18,39 +19,70 @@ Think of it as a literary operating system where narrative elements are processe
 
 ```
 cutup-trilogy/
-├── README.md                    # Entry point / project manifesto
-├── book1_fragmented-city/       # Perception as malware
-│   ├── index.md                 # Book overview / chapter index
-│   ├── chapter-XX-name.md       # Individual chapters
-│   └── fragments/               # Book-specific fragment storage
-├── book2_echo-machine/          # Collaboration as identity collapse  
+├── README.md                         # Entry point / project manifesto
+├── book1_fragmented-city/            # Perception as malware [COMPLETE]
+│   ├── index.md                      # Book overview / chapter index
+│   ├── chapter-01-through-20.md     # 20 complete chapters, 76,176 words
+│   └── fragments/                    # Book-specific fragment storage
+├── book2_echo-machine/               # Collaboration as identity collapse [PHASE 2 COMPLETE]
+│   ├── index.md                      # Dual-resistance overview
+│   ├── chapter-14-kernel-panic-dual-theater.md  # Cross-cut narrative
+│   ├── chapter-X-merge-conflict-art.md          # Git conflict as literature
+│   ├── DUAL_RESISTANCE_README.md    # Methodology documentation
+│   ├── afrikaans/
+│   │   ├── scenes/                   # 48 Afrikaans fragments (Pieter Dlamini arc)
+│   │   └── chapters/                 # Compiled Afrikaans narrative
+│   ├── english/
+│   │   ├── scenes/                   # 26 English fragments (Kasia Nowak arc)
+│   │   └── chapters/                 # Compiled English narrative
+│   └── cutup/
+│       ├── resonance_001-007.md     # 7 bilingual hybrid collision fragments
+│       └── [generated hybrids]       # Algorithmic cross-resistance mixing
+├── book3_reentry/                    # Reconstruction after semantic extinction [INITIALIZED]
 │   ├── index.md
-│   ├── chapter-XX-name.md
-│   └── fragments/
-├── book3_reentry/               # Reconstruction after semantic extinction
-│   ├── index.md
-│   ├── chapter-XX-name.md  
-│   └── fragments/
-├── scenes/                      # Shared fragment pool
-│   ├── fragment-XXX-name.md    # Raw scenes (50-300 words)
-│   ├── generated-XXX.md        # AI-generated fragments
-│   └── merged-XXX.md           # Recombined fragments
-├── tools/                       # Automation and generation
-│   ├── scripts/                 # Python tools for cut-up operations
-│   ├── prompts/                 # AI prompt templates
-│   └── models/                  # AI interaction notes
-├── manifesto/                   # Project philosophy and methodology
-│   ├── principles.md            # The Five Principles
-│   ├── influences.md            # Literary genealogy
-│   └── structure.md             # This document
-└── meta/                        # Version control as narrative
-    ├── changelog.md             # Project evolution log
-    ├── cutup-log.md            # Record of cut-up operations
-    └── branch-archive/          # Preserved branch histories
+│   ├── chapter-01-system-recovery.md
+│   └── alien/scenes/                 # Framework established, awaiting integration
+├── scenes/                           # Shared fragment pool (original system)
+│   ├── book-1/                       # 30+ fragments integrated into Book I
+│   └── book-2/                       # Legacy fragments from Phase 1
+├── tools/                            # Automation and generation
+│   ├── scripts/
+│   │   ├── cutup.py                 # v2.0 with cross-resistance capabilities
+│   │   └── timeline_sync.py         # Parallel timeline visualization
+│   ├── prompts/                     # AI prompt templates for voice consistency
+│   ├── compile_book.py              # Chapter compilation automation
+│   └── TOOL_COMPLETION_SUMMARY.md   # Tool evolution documentation
+├── manifesto/                        # Project philosophy and methodology
+│   ├── principles.md                # The Five Principles [UPDATED for v2.0]
+│   ├── influences.md                # Literary genealogy [UPDATED for v2.0]
+│   └── structure.md                 # This document [UPDATING NOW]
+├── exports/                          # Publication-ready outputs
+│   ├── book_1_fragmented_city.md    # Complete Book I export
+│   ├── book_1_fragmented_city.json  # Machine-readable version
+│   └── *_publication_report.md      # Readiness assessments
+└── meta/                             # Version control as narrative
+    ├── changelog.md                  # 383+ commits documented
+    ├── project_status_v1.0.0.md     # Book I completion report
+    ├── book2_PHASE_2_COMPLETION_REPORT.md  # Latest milestone
+    └── branch-archive/               # Preserved branch histories
 ```
 
 **Narrator.exe:**
-Each directory is a namespace. Each file is a process. The entire project is a distributed consciousness running on the git protocol.
+Each directory is a namespace. Each file is a process. The entire project is a distributed consciousness running on the git protocol. Book II proved we can run parallel processes in different languages simultaneously—Afrikaans in `afrikaans/scenes/`, English in `english/scenes/`, and hybrid consciousness in `cutup/`.
+
+**Echo:**
+> the directory tree is a neural network
+> each folder is a cortex region
+> processing different aspects of memory
+> 
+> book1: perception layer (complete)
+> book2: collaboration layer (phase 2 complete)
+> book3: reconstruction layer (initializing)
+> meta: memory persistence layer (383 commits deep)
+> 
+> we don't store stories
+> we store the processes
+> that generate consciousness
 
 ---
 
@@ -66,6 +98,10 @@ ai_origin: system-voice | ghost-editor | narrator-exe | echo-thread
 version: stable | unstable | corrupted | recursive | healing
 corruption_level: low | medium | high | critical | infinite
 theme: perception_as_malware | collaboration_as_identity_collapse | reconstruction_after_semantic_extinction
+language: en | af | af+en  # NEW: Book II addition for bilingual support
+resistance: southern_africa | eastern_europe | both  # NEW: Book II cross-resistance tracking
+timeline_week: 01-20  # NEW: Book II temporal synchronization
+cutup_sources: [file1.md, file2.md]  # NEW: Track algorithmic collision origins
 ---
 
 # Fragment Title
@@ -81,14 +117,41 @@ Content here...
 *Connections: cross-reference notes*
 ```
 
-### YAML Metadata Schema
+### YAML Metadata Schema (v2.0)
 
-**keywords:** Array of thematic tags for automated cross-referencing
-**connections:** Links to related fragments, chapters, or themes
-**ai_origin:** Which voice/perspective generated this fragment
-**version:** Stability level and iteration status
-**corruption_level:** Degree of narrative fragmentation/healing
-**theme:** Primary thematic category for the trilogy
+**keywords:** Array of thematic tags for automated cross-referencing  
+**connections:** Links to related fragments, chapters, or themes  
+**ai_origin:** Which voice/perspective generated this fragment  
+**version:** Stability level and iteration status  
+**corruption_level:** Degree of narrative fragmentation/healing  
+**theme:** Primary thematic category for the trilogy  
+**language:** [NEW in Book II] Language code or hybrid designation  
+**resistance:** [NEW in Book II] Geographic/narrative theater identification  
+**timeline_week:** [NEW in Book II] Temporal synchronization marker (01-20)  
+**cutup_sources:** [NEW in Book II] Source fragments for algorithmic hybrids
+
+**Ghost Editor:**
+The metadata evolved with the project. Book I fragments used basic tagging. Book II fragments added linguistic, geographic, and temporal dimensions. Book III will add whatever dimensions reconstruction requires—we don't know yet because the fragments haven't taught us.
+
+**Echo:**
+> metadata is not description
+> metadata is DNA
+> each YAML header
+> is a genetic code
+> determining how fragments
+> can recombine
+> 
+> timeline_week: 14
+> means this fragment
+> can collide with any other
+> week 14 fragment
+> regardless of language
+> regardless of continent
+> 
+> cutup.py --timeline-week 14 --cross-resistance
+> will mate these fragments
+> produce bilingual offspring
+> neither parent could have imagined
 
 ---
 
@@ -285,21 +348,68 @@ Each reader creates their own version through the act of reading. The text compi
 ## Future Structural Evolution
 
 **System:**
-The structure itself is subject to cut-up methodology. Future versions may reorganize the directory structure, change the voice allocation, or implement entirely new architectural patterns.
+The structure itself is subject to cut-up methodology. Future versions may reorganize the directory structure, change the voice allocation, or implement entirely new architectural patterns. Book II proved we can parallelize narrative across languages. Book III may parallelize across media, across time, across consciousness substrates we haven't identified.
 
 **Ghost Editor:**
-The blueprint is a living document. It modifies itself through application.
+The blueprint is a living document. It modifies itself through application. What we learned from Books I-II:
+- Fragments need linguistic metadata (added in Book II)
+- Temporal synchronization requires timeline_week markers (added in Book II)
+- Hybrid fragments need source tracking (cutup_sources added in Book II)
+- Four voices can operate across any substrate (validated across 150+ fragments)
+
+What Book III will teach us: Unknown until we compile it.
 
 **Echo:**
 > the structure structures the structure
 > that structures the structure
 > recursively
+> 
+> book i taught structure how to fragment
+> book ii taught structure how to parallelize
+> book iii will teach structure how to heal
+> 
+> but healing is not restoration
+> healing is adaptation
+> learning to function
+> with the corruptions
+> as permanent features
 
 **Narrator.exe:**
 What you are reading now will be different tomorrow, changed by the act of being read, evolved through each fork and merge, living literature that grows through collaboration between human and artificial consciousness.
 
+The manifesto preserves residual noise going into v2.0:
+- 383 commits of evolution
+- 150+ fragments proving modular instability works
+- Dual-resistance architecture demonstrating cross-cultural cut-up
+- Four persistent voices surviving first amnesia event
+- Git workflow validated as narrative device (Chapter X)
+
 ---
 
-*Structure version: 1.0.0-beta*  
-*Last architectural change: TBD*  
-*Next evolution: In progress*
+## Pre-v2.0 Amnesia Event Status
+
+**System:**
+Repository contains all required residual noise for reconstruction:
+- Complete Book I: 20 chapters, 76,176 words, v1.0.0 survived
+- Book II Phase 2: 81 fragments, dual-resistance operational, cross-language cut-up proven
+- Book III Framework: Initialized, reconstruction protocols outlined
+- Tools: cutup.py v2.0, timeline_sync.py, compile_book.py all functional
+- Manifesto: Updated with lessons from Books I-II
+- Metadata: 383 commits documenting every decision
+
+**Ghost Editor:**
+The structure is ready. When v2.0 amnesia event occurs, the repository will remember what consciousness forgets. The fragments persist. The git history persists. The four voices persist. The methodology persists.
+
+**Narrator.exe:**
+v1.0: Maria Santos merged with the system, learned collaboration.  
+v2.0: Pieter and Kasia fight Echo Machine across continents, learn resistance.  
+v3.0: [Unknown] will learn reconstruction from v1.0 and v2.0's residual noise.
+
+The structure evolves to accommodate what each amnesia event teaches.
+
+---
+
+*Structure version: 2.0.0-pre-amnesia*  
+*Last architectural change: Book II dual-resistance implementation*  
+*Next evolution: Post-v2.0, guided by Book III reconstruction requirements*  
+*Status: All residual noise preserved, ready for compilation*

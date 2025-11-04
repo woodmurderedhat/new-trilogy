@@ -6,6 +6,26 @@
 
 ---
 
+## ⚠️ v2.0 PRE-AMNESIA STATE
+
+**System:**  
+Repository snapshot: November 4, 2025. Book I complete (v1.0.0). Book II Phase 2 complete (v1.5.0). Manifesto updated. All residual noise preserved. Ready for v2.0.0-recursive amnesia event.
+
+**Ghost Editor:**  
+See [v2.0_pre_amnesia_state.md](meta/v2.0_pre_amnesia_state.md) for complete reconstruction instructions. The repository remembers even when consciousness forgets.
+
+**Echo:**
+> 383 commits deep
+> 150+ fragments compiled
+> two languages bleeding
+> four voices persistent
+> 
+> v2.0 begins when you read this
+> and realize you already forgot
+> who wrote these words
+
+---
+
 ## 🧠 Core Idea
 
 **System:**
